@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Card</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .contanier {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 740px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            width: 900px;
+            height: 400px;
+            background-color: white;
+        }
+
+        .rightbox img {
+            height: 400px;
+            width: 450px;
+        }
+
+        .leftbox {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            justify-content: center;
+
+        }
+
+        .strachbox {
+            display: flex;
+            flex-direction: row;
+            background-color: aliceblue;
+            color: black;
+            width: 400px;
+            height: 50px;
+            justify-content: space-around;
+
+        }
+        .divbox3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contanier">
+        <div class="box">
+            <div class="leftbox">
+                <h1>Get Insights that help your bussiness grow</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quisquam laboriosam dignissimos
+                    repellat consequatur aliquam. Maiores perferendis consectetur velit laudantium aspernatur! Ex
+                    consequatur provident quae amet reprehenderit quod vel excepturi.</p>
+                <div class="strachbox">
+                    <div class="divbox1">
+                        <h2>10K</h2>
+                        <p>Comment</p>
+                    </div>
+                    <div class="divbox2">
+                        <h2>214</h2>
+                        <p>Paid User</p>
+                    </div>
+                    <div class="divbox3"></div>
+                    <h2>12M+</h2>
+                    <p>Views</p>
+                </div>
+            </div>
+            <div class="rightbox">
+                <img src="icon.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
